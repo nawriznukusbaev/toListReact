@@ -1,0 +1,21 @@
+.komanda {
+  background-image: url(../../img/komanda-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 80;
+}
+
+.komanda-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.komanda-box {
+  width: 30%;
+}
+/*# sourceMappingURL=komanda.css.map */
