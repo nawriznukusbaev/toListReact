@@ -41,6 +41,7 @@ class ToDoList extends React.Component {
         this.arr.splice(note.dataset.id, 1);
         this.setState({
             list: this.arr,
+            count:this.state.count-1
         });
 
     }
